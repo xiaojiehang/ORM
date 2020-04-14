@@ -23,20 +23,20 @@ DBManger:根据配置信息，维持连接对象的管理（增加连接池）
 JDBCUtils封装常用JDBC操作  
 StringUtils封装常用字符串操作  
 JavaFileUtils封装文件操作：（将表结构封装成java类的操作）  
-ReflectUtils封装常用反射操作  
+ReflectUtils封装常用反射操作    
 bean类:  
 ColumnInfo类：封装数据库表中一个字段的信息  
 Configuration类：封装配置信息类  
 TableInfo类：封装数据库表的信息（表结构+表内所有的字段）
 
 ### 配置文件格式：
-driver：数据库驱动器
-url：连接数据库的url，最后一个sorm是数据库的名字
-user：数据库用户名
-password：密码
-src：当前项目的src目录
-popackage：数据库表生成的java对象存储的包
-usingdb：使用的数据库类型
+driver：数据库驱动器  
+url：连接数据库的url，最后一个sorm是数据库的名字  
+user：数据库用户名  
+password：密码  
+src：当前项目的src目录  
+popackage：数据库表生成的java对象存储的包  
+usingdb：使用的数据库类型  
 queryClass：使用的Query类（目前只有MysqlQuery类，只支持mysql）
 
 [CSDN博客](https://blog.csdn.net/Hsiao99/article/details/105375106)
